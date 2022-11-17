@@ -1,0 +1,154 @@
+*{
+     padding:0;
+     margin:0;
+     box-sizing: border-box;
+     font-family: 'Ubuntu', sans-serif;
+     transition:all 0.4s;
+    
+}
+html{
+     scroll-behavior: smooth;
+   
+}
+nav{
+     background: rgb(81, 88, 88);
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+    
+     
+}
+a{
+     color:white;
+     text-decoration: none;
+     font-weight: bolder;
+}
+.header{
+     background-image: url("pizza.jpg");
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: cover;
+     height: 100vh;
+}
+.navbar-brand{
+     font-weight: bolder;
+     font-size: 2rem;
+     color:white;
+     
+     font-family: 'Ubuntu', sans-serif; 
+}
+span{
+     color:red;
+     padding-left:0;
+     
+     
+}
+.text{
+     color:white;
+     padding:10px 5px;
+     background: rgba(53, 42, 42, 0.541);
+}
+.nav-item{
+     font-size:1rem;
+     transition: all 0.7s;
+     
+
+}
+.nav-item:hover{
+     background:#142850;
+     border-radius: 5px;
+     color:white;  
+}
+.nav-link{
+     transition: 0.5s;
+}
+.nav-link:hover{
+     transform:scale(1.1);
+
+}
+.icon{
+     color:white;
+     font-size: 1.5rem;
+     font-weight: bolder;
+     border-radius: 2px solid red;
+
+}
+h2,h3,h4,h5{
+     font-family: 'Pacifico', cursive; 
+     color:red;
+     font: 1.5rem;
+}
+h1{
+     color:white;
+     padding:5px 10px;
+     font-weight:bolder;
+
+
+}
+p{
+     font-size: 1.2rem;
+     margin-bottom:0;
+}
+.inter-face{
+     margin-top:70px;
+     padding-top:50px;
+}
+
+.inter{
+     margin-top:100px;
+  
+}
+
+/* header section end here  */
+
+main{
+     background-color: rgba(36, 39, 43, 0.781);
+}
+.card1{
+     transition: all 0.5s;
+     margin:10px
+}
+.card1:hover{
+     box-shadow: 4px 4px 10px black;
+     transform: scale(1.1);
+}
+.form{
+     border:2px solid red;
+     border-radius: 5px;
+}
+.img{
+     width: 100px;
+     height: 100px;
+}
+.email,.name{
+     position:relative;
+     
+}
+.font{
+     position: absolute;
+     top:33%;
+     left: 2%;
+     color:rgb(24, 23, 23);
+}
+.input{
+     padding-left: 33px;
+     color:rgb(15, 4, 3);
+}
+textarea{
+     resize:none;
+     padding:10px;
+     margin-top:10px;
+}
+.fb:hover{
+     color:#0d2c69;
+}
+.yt:hover{
+     color:red;
+}
+.ig:hover{
+     color:brown
+}
+.tw:hover{
+     color:blue; 
+}
+     
